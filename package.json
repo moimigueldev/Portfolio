@@ -1,0 +1,33 @@
+{
+  "name": "bs4-starter",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 work-flow",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moises Miguel",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0-beta",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "node-mailer": "^0.1.1",
+    "nodemailer": "^4.6.3",
+    "npm": "^5.7.1",
+    "popper.js": "^1.12.9",
+    "request": "^2.85.0",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,85 @@
+body {
+  font-family: 'Poppins', sans-serif; }
+  body p {
+    font-family: 'Raleway', sans-serif; }
+  body h1 {
+    font-family: 'Padauk', sans-serif; }
+  body h3 {
+    font-family: 'Roboto Mono', monospace; }
+
+#header {
+  background: url("../img/bg-9.gif") no-repeat;
+  background-color: #252525;
+  background-position: center;
+  height: 550px; }
+  #header .header-text {
+    margin-top: 12%; }
+  #header h1 {
+    font-weight: 400;
+    font-size: 50px; }
+  #header p {
+    font-weight: 300; }
+
+#navbar {
+  padding-top: 20px;
+  color: white; }
+  #navbar .active {
+    border-bottom: 3px solid #ff174c; }
+  #navbar li {
+    margin-left: 40px;
+    font-size: 18px; }
+
+#navbar2 {
+  padding-top: 20px;
+  background-color: transparent;
+  color: black; }
+  #navbar2 li {
+    color: black;
+    background-color: none; }
+  #navbar2 li:hover {
+    background-color: #ff174c;
+    border-radius: 20%; }
+    #navbar2 li:hover a {
+      color: white; }
+
+#skills #skills-header {
+  font-weight: bold;
+  color: #ff174c; }
+
+#more-projects #skills-header {
+  font-weight: bold;
+  color: #ff174c; }
+
+#more-projects h4 {
+  color: #2997ff; }
+
+#projects h1 {
+  color: #ff174c;
+  font-weight: bold; }
+
+#projects a:hover {
+  text-decoration: none; }
+
+.resume {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center; }
+  .resume button {
+    border-radius: 20px; }
+
+#contact a {
+  text-decoration: none; }
+
+#contact a:hover {
+  border-bottom: #0d00ff 4px solid; }
+
+#inverse {
+  padding-left: 80%; }
+
+@media only screen and (max-width: 600px) {
+  #skills .col-md-3 {
+    margin-top: 10px; } }

@@ -1,0 +1,161 @@
+$logo-color:rgb(255, 23, 76);
+$transparent-color:rgba(0,0,0,0.0);
+$primary-blue: rgb(41, 151, 255);
+
+
+
+body {
+
+
+    font-family: 'Poppins', sans-serif;
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h1 {
+        font-family: 'Padauk', sans-serif;
+    }
+
+    h3 {
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+
+#header {
+    background: url("../img/bg-9.gif") no-repeat;
+    // background-size:cover;
+    background-color:rgb(37, 37, 37);
+    background-position: center;
+    height:550px;
+  
+
+    .header-text {
+        margin-top:12%;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    p {
+        font-weight: 300;
+    }
+
+}
+
+#navbar {
+
+    padding-top:20px;
+    color:white;
+
+    .active {
+        border-bottom: 3px solid $logo-color;
+    }
+
+    li {
+        margin-left:40px;
+        font-size: 18px;
+    }
+
+   
+
+  
+}
+
+#navbar2 {
+    padding-top:20px;
+    background-color:$transparent-color;
+    color:black;
+
+    li {
+        color:black;
+        background-color: none;
+    }
+
+    li:hover {
+        background-color: $logo-color;
+        border-radius: 20%;
+        
+        a {
+            color:white;
+        }
+    }
+}
+
+
+#skills {
+    #skills-header {
+        font-weight: bold;
+        color: $logo-color;
+    }
+}
+
+#more-projects {
+    #skills-header {
+        font-weight: bold;
+        color: $logo-color;
+    }
+
+    h4 {
+        color: $primary-blue;
+    }
+}
+
+#projects {
+   h1 {
+       color: $logo-color;
+       font-weight: bold;
+   }
+
+    a:hover {
+        text-decoration: none;
+       
+   }
+   
+}
+
+.resume {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $transparent-color;
+    color: white;
+    text-align: center;
+
+    button {
+        border-radius: 20px;
+    }
+}
+
+#contact {
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        border-bottom: rgb(13, 0, 255) 4px solid;
+    }
+}
+
+
+
+
+#inverse {
+    padding-left:80%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #skills {
+        .col-md-3 {
+            margin-top: 10px;
+        }
+    }
+
+
+}
+
