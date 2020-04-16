@@ -7,7 +7,7 @@ let bodyParser = require("body-parser");
 
 
 app.use(express.static('src'));
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
 
 //Routes
@@ -18,5 +18,5 @@ let index = require("./routes/index");
 app.use("/", index);
 
 app.listen(port, () => {
-    console.log("Server running..");
+    console.log("Server running..", port);
 });
