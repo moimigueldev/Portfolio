@@ -1,37 +1,32 @@
-$logo-color:rgb(255, 23, 76);
-$transparent-color:rgba(0,0,0,0.0);
+$logo-color: rgb(255, 23, 76);
+$transparent-color: rgba(0, 0, 0, 0);
 $primary-blue: rgb(41, 151, 255);
 
-
-
 body {
-
-
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 
     p {
-        font-family: 'Raleway', sans-serif;
+        font-family: "Raleway", sans-serif;
     }
 
     h1 {
-        font-family: 'Padauk', sans-serif;
+        font-family: "Padauk", sans-serif;
     }
 
     h3 {
-        font-family: 'Roboto Mono', monospace;
+        font-family: "Roboto Mono", monospace;
     }
 }
 
 #header {
     background: url("../img/bg-9.gif") no-repeat;
     // background-size:cover;
-    background-color:rgb(37, 37, 37);
+    background-color: rgb(37, 37, 37);
     background-position: center;
-    height:550px;
-  
+    height: 550px;
 
     .header-text {
-        margin-top:12%;
+        margin-top: 12%;
     }
 
     h1 {
@@ -42,48 +37,43 @@ body {
     p {
         font-weight: 300;
     }
-
 }
 
 #navbar {
-
-    padding-top:20px;
-    color:white;
+    padding-top: 20px;
+    color: white;
 
     .active {
         border-bottom: 3px solid $logo-color;
     }
 
     li {
-        margin-left:40px;
+        margin-left: 40px;
         font-size: 18px;
     }
-
-   
-
-  
 }
 
 #navbar2 {
-    padding-top:20px;
-    background-color:$transparent-color;
-    color:black;
+    padding-top: 20px;
+    background-color: $transparent-color;
+    color: black;
+    display: inline-block;
+    width: 97px;
 
     li {
-        color:black;
+        color: black;
         background-color: none;
     }
 
     li:hover {
         background-color: $logo-color;
         border-radius: 20%;
-        
+
         a {
-            color:white;
+            color: white;
         }
     }
 }
-
 
 #skills {
     #skills-header {
@@ -104,16 +94,14 @@ body {
 }
 
 #projects {
-   h1 {
-       color: $logo-color;
-       font-weight: bold;
-   }
+    h1 {
+        color: $logo-color;
+        font-weight: bold;
+    }
 
     a:hover {
         text-decoration: none;
-       
-   }
-   
+    }
 }
 
 .resume {
@@ -131,7 +119,6 @@ body {
 }
 
 #contact {
-
     a {
         text-decoration: none;
     }
@@ -141,13 +128,9 @@ body {
     }
 }
 
-
-
-
 #inverse {
-    padding-left:80%;
+    padding-left: 80%;
 }
-
 
 @media only screen and (max-width: 600px) {
     #skills {
@@ -155,7 +138,4 @@ body {
             margin-top: 10px;
         }
     }
-
-
 }
-
