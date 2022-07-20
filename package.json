@@ -10,7 +10,7 @@
   "author": "Moises Miguel",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.6.9",
+    "angular": "^1.8.3",
     "angular-route": "^1.6.9",
     "body-parser": "^1.18.2",
     "bootstrap": "^4.0.0-beta",
